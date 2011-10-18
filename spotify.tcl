@@ -7,7 +7,7 @@
 package require http
 
 namespace eval spotify {
-#	bind pubm -|- "*" [namespace current]::check;
+	bind pubm -|- "*" [namespace current]::check;
 	setudef flag spotify;
 }
 
